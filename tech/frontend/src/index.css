@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #293141;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#WACContainer.WACContainer .button_daten {
+  background-color: #3cc1b7;
+  color: #011f;
+  text-decoration: none;
+  padding: 13px 7px;
+  text-align: center;
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#WACContainer.WACContainer .button_daten:hover {
+  background-color: #1c5569;
+  color: #ffffff;
+  text-decoration: underline;
+}
+#WACContainer.WACContainer b {
+  font-weight: bold;
+}

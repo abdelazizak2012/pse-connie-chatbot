@@ -1,0 +1,59 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "dependencies": {
+    "@carbon/colors": "^10.34.0",
+    "@carbon/elements": "^10.49.0",
+    "@carbon/grid": "^10.39.0",
+    "@carbon/icons": "^10.44.0",
+    "@carbon/layout": "^10.34.0",
+    "@carbon/motion": "^10.26.0",
+    "@carbon/pictograms": "^11.20.0",
+    "@carbon/themes": "^10.48.0",
+    "@carbon/type": "^10.39.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "carbon-components": "^10.50.0",
+    "carbon-components-react": "^7.50.0",
+    "carbon-icons": "^7.0.7",
+    "dotenv": "^10.0.0",
+    "googleapis": "^92.0.0",
+    "node-fetch": "^3.1.0",
+    "react": "^17.0.2",
+    "react-date-picker": "^8.3.6",
+    "react-datepicker": "^4.5.0",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.5.2",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
