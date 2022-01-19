@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+  backend:
+    working_dir: /var/app/backend
+    image: node:15
+    ports:
+      - 4000:4000
+    command: npm start
+    volumes:
+      - ./backend:/var/app/backend
+
+  frontend:
+    working_dir: /var/app/frontend
+    image: node:15
+    ports:
+      - 3000:3000
+    command: npm start
+    volumes:
+      - ./frontend:/var/app/frontend
+
+volumes:
+  my-datavolume:
